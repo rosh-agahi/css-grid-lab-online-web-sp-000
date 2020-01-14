@@ -9,7 +9,8 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: auto / 1fr 1fr 1fr;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+  grid-gap: 5px;
 }
 
 .grid-item {
@@ -18,3 +19,6 @@ body {
 }
 
 /* add the .bigItem class */
+.bigItem {
+  
+}
